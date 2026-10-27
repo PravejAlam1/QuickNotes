@@ -1,56 +1,80 @@
-# Welcome to your Expo app 👋
+# QuickNotes 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+QuickNotes is a simple mobile note-taking application inspired by ColorNote Notepad Notes. It is built using React Native, Expo, and TypeScript.
 
-## Get started
+The app helps users create, edit, delete, search, and organize their notes with different colors.
 
-1. Install dependencies
+## ✨ Features
+
+* 📝 Create new notes
+* ✏️ Edit existing notes
+* 🗑️ Delete notes
+* 🔍 Search notes
+* 🎨 Choose different colors for notes
+* 💾 Save notes locally using AsyncStorage
+* 📱 Android application support
+
+## 🛠️ Technologies Used
+
+* React Native
+* Expo
+* TypeScript
+* AsyncStorage
+* EAS Build
+* Git and GitHub
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Install Node.js and npm before running the project.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/PravejAlam1/QuickNotes.git
+   ```
+
+2. Open the project directory:
+
+   ```bash
+   cd QuickNotes
+   ```
+
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+4. Start the Expo development server:
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+Follow the terminal instructions to open the application on a compatible device or emulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📦 Android APK
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+An Android APK build has been generated for testing and installation.
 
-## Get a fresh project
+## 💾 Data Storage
 
-When you're ready, run:
+QuickNotes uses AsyncStorage to store notes locally on the device.
 
-```bash
-npm run reset-project
-```
+## 🎯 Project Purpose
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+This project was developed as a mobile application development assessment. It demonstrates mobile UI development, note management, local data storage, and Android application building.
 
-### Other setup steps
+## 👨‍💻 Developer
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+**Parve(j) Alam**
 
-## Learn more
+GitHub: [PravejAlam1](https://github.com/PravejAlam1)
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📄 Disclaimer
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+QuickNotes is an independently developed application inspired by common note-taking app features. It is not affiliated with or endorsed by ColorNote.
